@@ -7,7 +7,7 @@ It's also very close to what is needed from a real-world webpage, so the obtaine
 
 Since it's a learning project, I will, as always from now on, try to add my own touch in the way I resolve the problem at hand.
 
-However, since the goal here isn't to reinvent the wheel and risk going overboard, this time I will just try to make the smaller code possible.
+However, since the goal here isn't to reinvent the wheel and risk going overboard, this time I will just try to make a code that i like, and will still like in 6 month wwith more experience, like "ok, clearly i'm way better now, but it wasn't half bad anyway".
 
 It's not about a best practice anything, it's only to test my own understanding of CSS writing.
 
