@@ -1,20 +1,84 @@
-*{
-    border: 1px solid greenyellow;
-}
-
 /* General settings */
-
-
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+body{
+    margin: 0%;
+    padding: 0%;
+    
+}
 
 /*Header*/
 
+/*part one : top-screen menu */
+
+#header{
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 18px;
+    width: 100%;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    padding: 0% 10%;
+    
+}
+.logo{
+    margin-right: auto;
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: extra-bold;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0%;
+    display: flex;
+    gap: 30px;
+}
+
+/*part two : website introduction */
+
+.content{
+    display: flex;
+    padding: 10%;
+    
+    gap: 6%;
+    
+}
+.content-text{
+    width: 50%;
+}
+
+.main{
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.signup{
+    border-radius: 5px;
+    background-color: #3882F6;
+    box-shadow: inset black;
+}
+
+.content-img{
+    width: 50%;
+    height: auto;
+    background-color: gray;
+}
 
 
 /*Info*/
 
 
 
-/*HQuote*/
+/*Quote*/
 
 
 
