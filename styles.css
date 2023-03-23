@@ -51,9 +51,6 @@ ul{
     gap: 6%;
     
 }
-.content-text{
-    width: 50%;
-}
 
 .main{
     font-size: 48px;
@@ -67,17 +64,45 @@ ul{
     box-shadow: inset black;
 }
 
+/* this .content{} line cause flex:auto; just won't work */
+
 .content-img{
     width: 50%;
-    height: auto;
-    background-color: gray;
 }
 
 
 /*Info*/
 
+#info{
+    
+    color: #1F2937;
+    font-size: 18px;
+    width: 100%;
+}
 
+.info-title{
+    font-size: 36px;
+    font-weight: extra-bold;
+    text-align: center;
+    padding: 3%;
+}
 
+.info-content{
+    display: flex;
+    gap:5%;
+    padding: 0% 10%;
+}
+
+.info-text{
+    font-size: 14px;
+    
+}
+.info-img{
+    padding: 50px;
+    border: 3px solid #3882F6;
+    border-radius: 20px;
+
+}
 /*Quote*/
 
 
