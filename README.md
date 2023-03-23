@@ -18,3 +18,5 @@ I want the result to be responsive, and the header and footer to always show.
 The rest of the work will depend on where I'm going along the way.
 
 Black cat photo credits goes to Crina Doltu : https://www.pexels.com/fr-fr/photo/photographie-monochrome-de-chat-noir-1287365/
+
+Miniature exemple cat photo credits Sarah-Claude Lévesque St-Louis : https://www.pexels.com/fr-fr/chercher/black%20cat/

@@ -67,7 +67,7 @@ ul{
 /* this .content{} line cause flex:auto; just won't work */
 
 .content-img{
-    width: 50%;
+    max-width: 50%;
 }
 
 
@@ -98,8 +98,8 @@ ul{
     
 }
 .info-img{
-    padding: 50px;
     border: 3px solid #3882F6;
+    max-width: 100%;
     border-radius: 20px;
 
 }
