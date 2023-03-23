@@ -4,11 +4,11 @@ html {
   }
   *, *:before, *:after {
     box-sizing: inherit;
+    
   }
 body{
     margin: 0%;
     padding: 0%;
-    
 }
 
 /*Header*/
@@ -32,7 +32,7 @@ body{
     margin-right: auto;
     color: #F9FAF8;
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: bold;
 }
 
 ul{
@@ -54,7 +54,7 @@ ul{
 
 .main{
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: bold;
     color: #F9FAF8;
 }
 
@@ -90,7 +90,7 @@ ul{
 .info-content{
     display: flex;
     gap:5%;
-    padding: 0% 10%;
+    padding: 0% 10% 10% 10%;
 }
 
 .info-text{
@@ -105,13 +105,60 @@ ul{
 }
 /*Quote*/
 
+#quote{
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+}
 
+.author{
+    font-size: 14px;
+    font-weight: bold;
+    align-self: flex-end;
+}
 
 /*Action*/
 
+#action{
+    display: flex;
+    margin: 5% 10%;
+    padding: 5% 10%;
+    background-color: #3882F6;
+    border-radius: 10px;
+    gap: 20%;
+    color: #E5E7EB;
+    font-size: 12px;
+}
 
+.call{
+    font-weight: bold;
+    font-size: 16px;
+}
 
+.signdown{
+    border-radius: 5px;
+    background-color: #3882F6;
+    box-shadow: inset black;
+    color: #E5E7EB;
+    border: #E5E7EB solid 2px;
+    min-width: fit-content;
+    padding: 0% 10%;
+
+}
 /*Footer*/
 
-
+#footer{
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 18px;
+    width: 100%;
+    padding: 3% 10% ;
+    text-align: center;
+}
 
